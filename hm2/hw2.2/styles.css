@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5d7b3;
+}
+
+.block-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.block {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: all 0.3s ease;
+}
+
+
+.block:hover {
+    background-color: gray;
+    border-radius: 50%;
+}
